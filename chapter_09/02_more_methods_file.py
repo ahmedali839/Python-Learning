@@ -22,3 +22,18 @@ f.close()
 ### we don't need to explicity to close the file.
 
 
+
+
+## ## readline method:
+f = open("file.txt") 
+line1 = f.readline() ## readline() auto read lines one-by-one in order form automatically.
+print(line1)
+
+line2 = f.readline()
+print(line2)
+
+line3 = f.readline()
+print(line3)
+
+line4 = f.readline()
+print(line4)
